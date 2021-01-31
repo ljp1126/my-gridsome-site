@@ -6,5 +6,14 @@
 
 module.exports = {
   siteName: '我是李加朋', // 名称配置
-  plugins: []
+  siteDescription: '大前端',
+  plugins: [],
+  templates: {
+    Post: [
+      {
+        path: '/posts/:id',
+        component: './src/templates/Post.vue'
+      }
+    ]
+  }
 }
