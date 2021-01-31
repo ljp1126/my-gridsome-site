@@ -1,0 +1,25 @@
+<template>
+  <div>
+    <h1>User {{ $route.params.id }} Page</h1>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'UserPage',
+  data() {
+    return {
+
+    }
+  },
+  components: {
+
+  },
+  methods: { }
+}
+</script>
+
+<style lang='scss' scoped>
+
+ 
+</style>
